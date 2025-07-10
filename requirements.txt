@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+opencv-python
+numpy
+pandas
+scikit-learn
+langchain
+langchain-groq
+google-generativeai
+pydantic
+aiofiles
+python-multipart
