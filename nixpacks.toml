@@ -2,5 +2,5 @@
 nixPkgs = [
   "libGL",
   "glibc",
-  "glib"
+  "glib"
 ]
