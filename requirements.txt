@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pandas
+scikit-learn
+opencv-python
+python-dotenv
+langchain
+langchain-groq
+google-generativeai
