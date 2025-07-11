@@ -12,8 +12,9 @@ from typing import List, Optional
 app = FastAPI()
 
 # Load datasets
-fitness_exercise_df = pd.read_csv("E:/رابعه/Graduation Project/GraduationProject/coreFit-AI/weaklyRecommendation/fitness_exercises.csv")
-food_df = pd.read_csv("E:/رابعه/Graduation Project/GraduationProject/coreFit-AI/weaklyRecommendation/food_data.csv")
+BASE_DIR = os.path.dirname(__file__)
+fitness_exercise_df = pd.read_csv(os.path.join(BASE_DIR, "fitness_exercises.csv"))
+food_df = pd.read_csv(os.path.join(BASE_DIR, "food_data.csv"))
 
 # Prepare data for AI model
 def prepare_food_data():
